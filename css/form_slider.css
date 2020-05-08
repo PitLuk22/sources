@@ -1,0 +1,28 @@
+.form-slider {
+    width: 500px;
+    height: 340px;
+    background: bisque;
+    position: absolute;
+    transition: all ease 0.5s;
+}
+.left-50, .right-50 {
+    background: rgb(241, 151, 151);
+    width: 250px;
+    float: left;
+    cursor: pointer;
+}
+.right-50 {
+    background: rgb(86, 221, 221);
+    width: 250px;
+    max-height: 340px;
+    overflow-y: scroll;
+    float: right;
+    padding: 5px;
+}
+.back {
+   text-align: center;
+}
+.back:hover {
+    color: red;
+    text-decoration: underline;
+}

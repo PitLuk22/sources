@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+.round-close {
+    border: 1px solid red;
+    border-radius: 100%;
+    background: red;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.block-modal-test {
+    position: relative;
+    width: 250px;
+    height: 340px;
+    border: 2px solid black;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.myForm {
+    width: 600px;
+    height: 100px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i-1 {
+    height: 30px;
+}
+
+
